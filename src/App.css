@@ -1,0 +1,534 @@
+/*body{
+  cursor: url('cursor.cur'), auto;
+}*/
+#navv{
+  background-color: #ffffff;
+}
+#navvbrand{
+  font-size: 32px;
+}
+#navvitem{
+  font-size: 20px;
+}
+/*#title{
+  font-size: 10000vw;
+}*/
+#title2{
+  font-weight: lighter;
+}
+#web2{
+  margin-top: 150px;
+}
+#difftext{
+  font-family: 'Courier New', Courier, monospace;
+}
+#web7{
+  margin-top: 300px;
+}
+.mybtn{
+  background-color: #ffffff;
+  border: 2px black solid;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mybtn2{
+  background-color: rgb(19, 19, 19);
+  border: 0px rgb(19, 19, 19) solid;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+.myhr{
+  margin-top: 150px;
+}
+#item1{
+  font-weight: bold;
+}
+#item2{
+  font-family: 'Times New Roman', Times, serif;
+}
+#footlist{
+  font-size: 20px;
+}
+#foot{
+  margin-top: 100px;
+}
+#footitem{
+  margin-top: 20px;
+}
+.mymar{
+  font-size: 35px;
+
+}
+#Ctitle2{
+  font-weight: bold;
+}
+#bigtext{
+  font-weight:450;
+  color:#ff7979
+}
+.smalltext{
+  color:#ff7979;
+  font-size: 18px;
+}
+#ctext{
+  font-size: 34px;
+}
+#ctext2{
+  font-size: 18px;
+}
+#marrow{
+  margin-top: 300px;
+}
+#navvbrand:hover{
+  font-size: 40px;
+  transition: 0.5s ease;
+}
+#navvbrand:not(hover){
+  font-size: 32px;
+  transition: 0.5s ease;
+}
+#navvl:hover{
+  color:white;
+  background-color: rgb(74, 74, 255);
+  border-radius: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 0.2s ease;
+}
+#navvl:not(hover){
+  color:black;
+  background-color: white;
+
+  transition: 0.2s ease;
+}
+#mdrise{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mdrise:hover{
+  width: 60%;
+margin-left: auto;
+margin-right: auto;
+  transition: 0.5s ease;
+}
+#mdrise:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+#web1:hover{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  transition: 0.5s ease;
+}
+#web1:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+#web2:hover{
+  width: 60%;
+margin-left: auto;
+display:flex;
+margin-right: auto;
+  transition: 0.5s ease;
+}
+#web2:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+#web3:hover{
+  width: 60%;
+margin-left: auto;
+display:flex;
+margin-right: auto;
+  transition: 0.5s ease;
+}
+#web3:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+#web4:hover{
+  width: 60%;
+margin-left: auto;
+display:flex;
+margin-right: auto;
+  transition: 0.5s ease;
+}
+#web4:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+#web5:hover{
+  width: 60%;
+  display:flex;
+margin-left: auto;
+margin-right: auto;
+  transition: 0.5s ease;
+}
+#web5:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+#web6:hover{
+  width: 60%;
+margin-left: auto;
+display:flex;
+margin-right: auto;
+  transition: 0.5s ease;
+}
+#web6:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+#web7:hover{
+  width: 60%;
+margin-left: auto;
+margin-right: auto;
+display:flex;
+  transition: 0.5s ease;
+}
+#web7:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+#web8:hover{
+  width: 60%;
+margin-left: auto;
+margin-right: auto;
+display:flex;
+  transition: 0.5s ease;
+}
+#web8:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+#web9:hover{
+  width: 60%;
+margin-left: auto;
+margin-right: auto;
+display:flex;
+  transition: 0.5s ease;
+}
+#web9:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+#web10:hover{
+  width: 60%;
+margin-left: auto;
+margin-right: auto;
+display:flex;
+  transition: 0.5s ease;
+}
+#web10:not(hover){
+  width: 100%;
+  transition: 0.5s ease;
+}
+.mybtn:hover{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: 0.2s ease;
+}
+.mybtn:not(hover){
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.2s ease;
+}
+#item1:hover~  #hr1{
+      width: 100%;
+      opacity: 1;
+
+      transition: 1s ease;
+}
+#item1:not(hover)~  #hr1{
+  width: 0%;
+  transition: 1s ease;
+}
+#item2:hover~  #hr2{
+  width: 100%;
+  opacity: 1;
+  transition: 1s ease;
+}
+#item2:not(hover)~  #hr2{
+width: 0%;
+transition: 1s ease;
+}
+#item3:hover~  #hr3{
+  width: 100%;
+  opacity: 1;
+  transition: 1s ease;
+}
+#item3:not(hover)~  #hr3{
+width: 0%;
+transition: 1s ease;
+}
+#footitem1:hover{
+  font-size: 25px;
+  color:blue;
+  transition: 0.5s ease;
+}
+#footitem1:not(hover){
+  font-size: 20px;
+  color:black;
+  transition: 0.5s ease;
+}
+#footitem2:hover{
+  font-size: 25px;
+  color:blue;
+  transition: 0.5s ease;
+}
+#footitem2:not(hover){
+  font-size: 20px;
+  color:black;
+  transition: 0.5s ease;
+}
+#footitem3:hover{
+  font-size: 25px;
+  color:blue;
+  transition: 0.5s ease;
+}
+#footitem3:not(hover){
+  font-size: 20px;
+  color:black;
+  transition: 0.5s ease;
+}
+#footitem4:hover{
+  font-size: 25px;
+  color:blue;
+  transition: 0.5s ease;
+}
+#footitem4:not(hover){
+  font-size: 20px;
+  color:black;
+  transition: 0.5s ease;
+}
+#footitem5:hover{
+  font-size: 25px;
+  color:blue;
+  transition: 0.5s ease;
+}
+#footitem5:not(hover){
+  font-size: 20px;
+  color:black;
+  transition: 0.5s ease;
+}
+#footitem6:hover{
+  font-size: 25px;
+  color:blue;
+  transition: 0.5s ease;
+}
+#footitem6:not(hover){
+  font-size: 20px;
+  color:black;
+  transition: 0.5s ease;
+}
+#footitem7:hover{
+  font-size: 25px;
+  color:blue;
+  transition: 0.5s ease;
+}
+#footitem7:not(hover){
+  font-size: 20px;
+  color:black;
+  transition: 0.5s ease;
+}
+#footitem8:hover{
+  font-size: 25px;
+  color:blue;
+  transition: 0.5s ease;
+}
+#footitem8:not(hover){
+  font-size: 20px;
+  color:black;
+  transition: 0.5s ease;
+}
+.mybtn2:hover{
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 2px solid rgb(19, 19, 19);
+  transition: 0.2s ease;
+  color:black;
+}
+.mybtn2:not(hover){
+  background-color: rgb(19, 19, 19);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px solid rgb(19, 19, 19);
+  transition: 0.2s ease;
+}
+
+.icon1:hover{
+  margin-right: 20px;
+  height: auto;
+  transition: 0.5s ease;
+}
+.icon1:not(hover){
+  margin-right: 0px;
+  height: auto;
+  transition: 0.5s ease;
+}
+
+
+.icon2:hover{
+  margin-right: 20px;
+  height: auto;
+  transition: 0.5s ease;
+}
+.icon2:not(hover){
+  margin-right: 0px;
+  height: auto;
+  transition: 0.5s ease;
+}
+
+.icon3:hover{
+  margin-right: 20px;
+  height: auto;
+  transition: 0.5s ease;
+}
+.icon3:not(hover){
+  margin-right: 0px;
+  height: auto;
+  transition: 0.5s ease;
+}
+
+
+.icon4:hover{
+  margin-right: 20px;
+  height: auto;
+  transition: 0.5s ease;
+}
+.icon4:not(hover){
+  margin-right: 0px;
+  height: auto;
+  transition: 0.5s ease;
+}
+.a1:hover~ #hr4{
+  width: 100%;
+  padding-top: 02px;
+  background-color: #000000;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.a1:not(hover)~ #hr4{
+  width: 0%;
+  transition: 0.5s ease;
+}
+.a2:hover~ #hr5{
+  width: 100%;
+  padding-top: 02px;
+  opacity: 1;
+  background-color: #000000;
+  transition: 0.5s ease;
+}.a2:not(hover)~ #hr5{
+  width: 0%;
+  transition: 0.5s ease;
+}
+.a3:hover~ #hr6{
+  width: 100%;
+  padding-top: 02px;
+  background-color: #000000;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.a3:not(hover)~ #hr6{
+  width: 0%;
+  transition: 0.5s ease;
+}
+#chr{
+  padding-top: 02px;
+  color: #000000;
+  opacity: 1;
+}
+#item10:hover~  #hr10{
+  width: 100%;
+  opacity: 1;
+  transition: 1s ease;
+}
+#item10:not(hover)~  #hr10{
+  width: 0%;
+  opacity: 1;
+  transition: 1s ease;
+}
+#item11:hover~  #hr11{
+  width: 100%;
+  opacity: 1;
+  transition: 1s ease;
+}
+#item11:not(hover)~  #hr11{
+  width: 0%;
+  opacity: 1;
+  transition: 1s ease;
+}
+#item12:hover~  #hr12{
+  width: 100%;
+  opacity: 1;
+  transition: 1s ease;
+}
+#item12:not(hover)~  #hr12{
+  width: 0%;
+  opacity: 1;
+  transition: 1s ease;
+}
+#images:hover{
+  width: 120%;
+  height: auto;
+  transition: 0.5s ease;
+}
+#images:not(hover){
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+}
+#coll{
+  animation-name: opac;
+  animation-duration: 0.6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes opac{
+  0%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+#title{
+  animation-name: heading;
+  animation-duration: 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes heading{
+  0%{
+    font-size: 07vw;
+    margin-left: auto;
+  }
+  100%{
+    font-size: 08vw;
+    margin-left: auto;
+
+  }
+}
