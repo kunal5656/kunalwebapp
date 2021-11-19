@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/kunalwebapp/static/css/main.6c5f8417.chunk.css",
-    "main.js": "/kunalwebapp/static/js/main.3ec951fb.chunk.js",
-    "main.js.map": "/kunalwebapp/static/js/main.3ec951fb.chunk.js.map",
-    "runtime-main.js": "/kunalwebapp/static/js/runtime-main.a4757882.js",
-    "runtime-main.js.map": "/kunalwebapp/static/js/runtime-main.a4757882.js.map",
-    "static/js/2.248f7b02.chunk.js": "/kunalwebapp/static/js/2.248f7b02.chunk.js",
-    "static/js/2.248f7b02.chunk.js.map": "/kunalwebapp/static/js/2.248f7b02.chunk.js.map",
-    "static/js/3.b87025a5.chunk.js": "/kunalwebapp/static/js/3.b87025a5.chunk.js",
-    "static/js/3.b87025a5.chunk.js.map": "/kunalwebapp/static/js/3.b87025a5.chunk.js.map",
+    "main.js": "/kunalwebapp/static/js/main.01eb2287.chunk.js",
+    "main.js.map": "/kunalwebapp/static/js/main.01eb2287.chunk.js.map",
+    "runtime-main.js": "/kunalwebapp/static/js/runtime-main.894cd5cf.js",
+    "runtime-main.js.map": "/kunalwebapp/static/js/runtime-main.894cd5cf.js.map",
+    "static/js/2.0ca96dcc.chunk.js": "/kunalwebapp/static/js/2.0ca96dcc.chunk.js",
+    "static/js/2.0ca96dcc.chunk.js.map": "/kunalwebapp/static/js/2.0ca96dcc.chunk.js.map",
+    "static/js/3.d07b3790.chunk.js": "/kunalwebapp/static/js/3.d07b3790.chunk.js",
+    "static/js/3.d07b3790.chunk.js.map": "/kunalwebapp/static/js/3.d07b3790.chunk.js.map",
     "index.html": "/kunalwebapp/index.html",
     "static/css/main.6c5f8417.chunk.css.map": "/kunalwebapp/static/css/main.6c5f8417.chunk.css.map",
-    "static/js/2.248f7b02.chunk.js.LICENSE.txt": "/kunalwebapp/static/js/2.248f7b02.chunk.js.LICENSE.txt"
+    "static/js/2.0ca96dcc.chunk.js.LICENSE.txt": "/kunalwebapp/static/js/2.0ca96dcc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a4757882.js",
-    "static/js/2.248f7b02.chunk.js",
+    "static/js/runtime-main.894cd5cf.js",
+    "static/js/2.0ca96dcc.chunk.js",
     "static/css/main.6c5f8417.chunk.css",
-    "static/js/main.3ec951fb.chunk.js"
+    "static/js/main.01eb2287.chunk.js"
   ]
 }
