@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './App.css'
 function Footer() {
     return (
@@ -12,9 +11,9 @@ function Footer() {
                     <div className="row">
                     <div className="col-4">
                         <ul className="list-unstyled" id="footlist">
-                          <Link to="/" className="nav-link">  <li id="footitem1"  className="mt-2">Home</li></Link>
+                          <a href="#" className="nav-link">  <li id="footitem1"  className="mt-2">Home</li></a>
                           <a href="#" className="nav-link">  <li id="footitem2" className="mt-2">Work</li></a>
-                          <Link to="/Culture" className="nav-link">  <li id="footitem3" className="mt-2">Culture</li></Link>
+                          <a href="#" className="nav-link">  <li id="footitem3" className="mt-2">Culture</li></a>
                            <a href="#" className="nav-link"> <li id="footitem4" className="mt-2">Careers</li></a>
                            <a href="#" className="nav-link"> <li id="footitem5" className="mt-2">Contact</li></a>
                           <a href="#" className="nav-link">  <li id="footitem6" className="mt-2">Archive</li></a>
@@ -75,7 +74,7 @@ function Footer() {
                         </div>
                         </div>
                         <div className="col-lg-2">
-                            <Link to="/" id="navvbrand" className="nav-link text-dark">Thinkingbox</Link>
+                            <a href="#" id="navvbrand" className="nav-link text-dark">Thinkingbox</a>
                         </div>    
                     </div>
                 </div>
